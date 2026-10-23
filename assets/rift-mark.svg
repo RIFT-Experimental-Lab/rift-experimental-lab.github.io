@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-labelledby="title">
+  <title id="title">R.I.F.T. — орбиты вокруг буквы R</title>
+  <g fill="none" stroke="#31584b" stroke-width="1.1">
+    <ellipse cx="50" cy="50" rx="49" ry="25" transform="rotate(43.5 50 50)"/>
+    <ellipse cx="50" cy="50" rx="49" ry="25" transform="rotate(-43.5 50 50)"/>
+  </g>
+  <text x="49" y="66" fill="#21312b" font-family="Georgia, 'Times New Roman', serif" font-size="45" text-anchor="middle">R</text>
+  <circle cx="82" cy="50" r="2.8" fill="#a95737"/>
+</svg>

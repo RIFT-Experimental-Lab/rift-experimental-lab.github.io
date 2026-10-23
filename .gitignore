@@ -1,0 +1,12 @@
+# Generated site pages and release output
+/index.html
+/journal.html
+/experiments.html
+/laboratory.html
+/sources.html
+/manifesto.html
+/contact.html
+/ru/
+/zh/
+/dist/
+/__pycache__/
