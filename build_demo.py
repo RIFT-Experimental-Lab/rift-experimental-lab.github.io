@@ -105,8 +105,15 @@ page("journal.html", "Журнал", '''
 <header class="page-lead"><span class="eyebrow">SECTION 01 / LAB JOURNAL</span><h1>Журнал лаборатории</h1><p>Записи о том, как вопросы становятся экспериментами: идеи, решения, источники и изменения в работе приборов.</p></header>
 <div class="content-grid inner-grid">
   <main class="primary">
-    <div class="section-title"><span>INDEX OF ENTRIES</span><small>ПЕРВАЯ ЗАПИСЬ</small></div>
-    <article class="journal-article journal-full">
+    <div class="section-title"><span>INDEX OF ENTRIES</span><small>002 / 001</small></div>
+    <article class="journal-article journal-full" id="entry-002">
+      <div class="paper-meta"><span><b>ЗАПИСЬ 002</b></span><span><time datetime="2026-10-26">2026-10-26</time> / EXPERIMENT 001</span></div>
+      <h2>TimeLineStamp на главном экране</h2>
+      <p>Мы выпустили виджет TimeLineStamp для главного экрана Android. Он показывает последнее зафиксированное суточное число, дату записи UTC и полноту данных.</p>
+      <p>Последнее показание остаётся на экране без интернета. Приложение работает на Android 8 и новее, интерфейс — на английском. Подписанный APK можно скачать со страницы эксперимента.</p>
+      <a class="article-link" href="https://rift-experimental-lab.github.io/TimeLineStamp/#android-widget">СКАЧАТЬ ВИДЖЕТ ДЛЯ ANDROID ↗</a>
+    </article>
+    <article class="journal-article journal-full" id="entry-001">
       <div class="paper-meta"><span><b>ЗАПИСЬ 001</b></span><span>О ЛАБОРАТОРИИ</span></div>
       <h2>Зачем существует R.I.F.T.</h2>
       <p>Есть идеи, которые сначала звучат как сюжет научной фантастики. Интересно не просто обсуждать их, а находить наблюдаемые процессы, собирать инструменты и оставлять проверяемую запись того, что получилось.</p>
@@ -115,7 +122,7 @@ page("journal.html", "Журнал", '''
     </article>
     <div class="journal-end"><span>END OF ENTRY 001</span><a href="experiments.html">ДАЛЕЕ: EXPERIMENT 001 ↗</a></div>
   </main>
-  <aside class="sidebar"><section class="sidebar-section"><div class="section-title"><span>ON THIS PAGE</span><small>АРХИВ</small></div><ul class="sidebar-list"><li><span>001 / Зачем существует R.I.F.T.</span></li></ul></section><div class="margin-note">Журнал хранит вопросы, решения и изменения в работе лаборатории.</div></aside>
+  <aside class="sidebar"><section class="sidebar-section"><div class="section-title"><span>ON THIS PAGE</span><small>АРХИВ</small></div><ul class="sidebar-list"><li><a href="#entry-002">002 / Виджет для Android</a></li><li><a href="#entry-001">001 / Зачем существует R.I.F.T.</a></li></ul></section><div class="margin-note">Журнал хранит вопросы, решения и изменения в работе лаборатории.</div></aside>
 </div>
 ''')
 

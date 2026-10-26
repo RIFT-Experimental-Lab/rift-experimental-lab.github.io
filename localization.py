@@ -86,6 +86,12 @@ TEXT: dict[str, tuple[str, str]] = {
     "Данные и документы, к которым мы обращаемся.": ("Data feeds and documents used by the lab.", "实验室使用的数据流与文档。"),
 
     # Journal.
+    "ЗАПИСЬ 002": ("ENTRY 002", "记录 002"),
+    "TimeLineStamp на главном экране": ("TimeLineStamp on the home screen", "主屏幕上的 TimeLineStamp"),
+    "Мы выпустили виджет TimeLineStamp для главного экрана Android. Он показывает последнее зафиксированное суточное число, дату записи UTC и полноту данных.": ("We have released an Android home screen widget for TimeLineStamp. It displays the latest sealed daily number, the UTC date of the record, and data completeness.", "我们发布了适用于 Android 主屏幕的 TimeLineStamp 小组件。它显示最新封存的每日数字、记录的 UTC 日期及数据完整度。"),
+    "Последнее показание остаётся на экране без интернета. Приложение работает на Android 8 и новее, интерфейс — на английском. Подписанный APK можно скачать со страницы эксперимента.": ("The last reading remains visible offline. The app works on Android 8 or newer, its interface is in English, and the signed APK can be downloaded from the experiment page.", "离线时仍可查看上次读数。应用支持 Android 8 及以上版本，界面为英文。可从实验页面下载已签名的 APK。"),
+    "СКАЧАТЬ ВИДЖЕТ ДЛЯ ANDROID ↗": ("DOWNLOAD THE ANDROID WIDGET ↗", "下载 ANDROID 小组件 ↗"),
+    "002 / Виджет для Android": ("002 / Android widget", "002 / Android 小组件"),
     "Журнал лаборатории": ("Laboratory journal", "实验室日志"),
     "Записи о том, как вопросы становятся экспериментами: идеи, решения, источники и изменения в работе приборов.": ("A record of how questions become experiments: ideas, decisions, sources, and changes to the instruments.", "记录问题如何变成实验：想法、决策、数据来源，以及仪器使用方式的变化。"),
     "INDEX OF ENTRIES": ("INDEX OF ENTRIES", "记录目录"),
